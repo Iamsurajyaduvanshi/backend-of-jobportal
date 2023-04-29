@@ -6,7 +6,7 @@ import router from "./router/authRouter.js";
 import jobRouter from "./router/jobRouter.js";
 
 import cors from  "cors";
-import errorMiddleware from "./middleware/errormiddleware.js";
+import errorMiddleware from "./middleware/errorMiddleware.js";
 
 const app = express();
 
